@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    padding: 30px;
+}
+
+h1 {
+    color: #000000;
+}
+
+.descripcion {
+    font-size: 1.5rem;
+    color: #555;
+}
+
+.foto {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 3px solid #000000;
+}
+
+.habilidades {
+    padding: 0;
+}
+
+
+.habilidades li {
+    background-color: #2196f3;
+    color: white;
+    margin: 5px auto;
+    padding: 8px;
+    width: 60%;
+    border-radius: 8px;
+}
+
+.redes a {
+    margin: 10px;
+    text-decoration: none;
+    color: #4d82bc;
+    font-weight: bold;
+}
+
+.contacto {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.contacto:hover {
+    background-color: #1e8449;
+}
